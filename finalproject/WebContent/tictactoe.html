@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tic Tac Toe</title>
+ <!-- Import Firebase Library / SDK -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Tic Tac Toe</h1>
+<h3 align="center">IOT Practice Final Project</h3>
+<h5 align="center">By: Anmina, 10876063</h5>
+<br><br>
+<!-- table to create 9x9 cell -->
+
+<table>
+<tr>
+	<td class="cell" id="0"></td>
+	<td class="cell" id="1"></td>
+	<td class="cell" id="2"></td>
+</tr>
+<tr>
+	<td class="cell" id="3"></td>
+	<td class="cell" id="4"></td>
+	<td class="cell" id="5"></td>
+</tr>
+<tr>
+	<td class="cell" id="6"></td>
+	<td class="cell" id="7"></td>
+	<td class="cell" id="8"></td>
+</tr>
+</table>
+
+<div class="endgame">
+	<div class="text"></div>
+	<button onClick="startGame()">Replay</button>
+</div>
+
+
+<script src="script1.js"></script>
+</body>
+</html>
